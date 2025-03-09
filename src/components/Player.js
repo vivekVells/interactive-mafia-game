@@ -9,7 +9,7 @@ const Player = () => {
     sessionId,
     isHost,
     gamePhase,
-    submitVote,
+    // We're not using submitVote anymore
     currentPlayerId,
     getPlayerInfo
   } = useGame();

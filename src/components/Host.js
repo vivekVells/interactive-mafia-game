@@ -70,10 +70,7 @@ const Host = () => {
     }
   };
 
-  // Record a vote (from player verbally telling the host)
-  const handleRecordVote = (voterId, votedForId) => {
-    recordVote(voterId, votedForId);
-  };
+  // We'll use recordVote directly from the context when needed
 
   // Process day phase voting
   const handleProcessVotes = () => {

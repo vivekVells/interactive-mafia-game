@@ -15,7 +15,7 @@ const Home = () => {
       return;
     }
     
-    const newSessionId = createSession();
+    createSession();
     navigate('/host');
   };
 
